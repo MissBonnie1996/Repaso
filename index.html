@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso general de páginas web</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+<body id="body">
+    <h1>REPASO GENERAL DE ELEMENTOS DE UNA PÁGINA WEB</h1>
+
+    <p class="dato">Hay tres elementos importantes es una página web:
+        <!Esto es un comentario, li sirve para crear una lista enumerada>
+        <li>Archivo HTML para el cuerpo</li>
+        <li>Archivo CSS para el diseño</li>
+        <li>Archivo JavaScript para crear las funcionalidades de la página</li>
+    </p>
+
+    <p class="dato">
+        Si quiero que un elemento se encuentre uno a lado del otro de forma horizontal, hago uso del comando <b>SPAM</b>
+    </p>
+    <span id="span">Primer elemento</span>
+    <span id="span2">Segundo elemento</span>
+    <p class="dato">Si quiero que un elemento se encuentre debajo de otro de forma Vertical, hago uso del comando <b>DIV</b></p>
+    <div id="div">Primer elemento</div>
+    <div id="div2">Segundo Elemento</div>
+
+    <p class="dato">Si quiero anclar una imagen tengo que tenerla guardada en la misma carpeta y hacer uso del comando <b>IMG</b></p>
+    <img src="foto1.jpg" id="foto1">
+
+    <p class="dato">Si quiero hacer un boton, hago uso del comando <b>BUTTON</b></p>
+    <button onclick="changetheme()" id="boton1">Haz click aquí</button>
+    <br><br><br><br>
+    <section id="seccion1">
+        <h1>Ejercicio 1. Aplicaciones web</h1>
+        <h2>Calculadora de edad de años a horas</h2>
+        <div>Ingresa tu edad en años:</div>
+        <br><br>
+        <input type="number" id="edad" class="entrada">
+        <br><br>
+        <button id="boton1" onclick="calcular1()">Calcular</button>
+        <br><br>
+        <div>Usted tiene:</div>
+        <br><br><br>
+        <div id="resultado1">0</div>
+        <br><br>
+        <div>Horas de vida</div>
+    </section>
+    <br><br><br>
+
+    <section id="seccion2">
+        <h1>Ejercicio 2. Aplicaciones web</h1>
+        <h2>Calculadora de cuadrados</h2>
+        <br><br><br>
+        <div>Ingresa el lado de un cuadrado:</div>
+        <br><br><br>
+        <input type="number" id="lado1" class="entrada">
+        <br><br>
+        <button id="boton1" onclick="calcular2()">Calcular</button>
+        <br><br>
+        <div>El perímetro es:</div>
+        <br><br>
+        <div id="resultado2">0</div>
+        <br><br>
+        <div>El área es:</div>
+        <br><br>
+        <div id="resultado3">0</div>
+    </section>
+
+    <br><br><br>
+    <section id="seccion3">
+        <h1>Ejercicio 3. Aplicaciones web</h1>
+        <h2>Cambia el color de fondo</h2>
+        <br><br><br>
+        <div>Ingresa un color en inglés:</div>
+        <br>
+        <input type="text" id="color" class="entrada">
+        <br><br>
+        <button id="boton1" onclick="cambiar()">Cambiar color</button>
+        <br><br>
+        <div>O bien, usa el siguiente botón para colores aleatorios: </div>
+        <br><br>
+        <button id="boton1" onclick="ChangeColor()">Cambiar Color Aleatorio</button>
+    </section>
+
+    <br><br><br>
+    <section id="seccion4">
+        <h1>Ejercicio 4. Aplicaciones web</h1>
+        <h2>Quiz de Matemáticas</h2>
+        <br><br><br>
+        <button id="boton1" onclick="generar()">Generar operación</button>
+        <br><br><br>
+        <div>¿Cuál es el resultado de esta operación?</div>
+        <br>
+        <span id="n1"></span>X
+        <span id="n2"></span>
+        <br><br><br>
+        <input type="number" id="resultado1" class="entrada">
+        <br><br><br>
+        <button id="boton1" onclick="verificar()">Verificar</button>
+        <br><br><br>
+        <div>Aciertos</div>
+        <div id="aciertos">0</div>
+        <div>Errores:</div>
+        <div id="errores">0</div>
+
+
+    </section>
+
+    
+
+
+    
+    
+</body>
+<script src="main.js"></script>
+</html>
